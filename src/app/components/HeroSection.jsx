@@ -25,7 +25,6 @@ const HeroSection = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              // style={{ fontSize: '2em', display: 'inline-block' }}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
