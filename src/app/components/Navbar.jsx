@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
 import NavLink from './NavLink';
@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     title: "Projects",
-    path: "#project",
+    path: "#projects",
   },
   {
     title: "Contact",
@@ -65,7 +65,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      { !navbarOpen ? <MenuOverlay links={navLinks}/> : null }
+      { navbarOpen ? <MenuOverlay links={navLinks}/> : null }
     </nav>
   );
 };
