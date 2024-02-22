@@ -17,9 +17,9 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.blue,
-      secondary: colors.cyan,
-      terciary: colors.blue,
+      primary: colors.cyan,
+      secondary: colors.indigo,
+      terciary: colors.indigo,
       // primary: colors.red,
       // secondary: colors.pink,
       // terciary: colors.blue,

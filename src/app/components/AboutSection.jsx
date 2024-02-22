@@ -8,13 +8,27 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>SQL/Oracle</li>
-        <li>C# .Net</li>
-        <li>Node</li>
-        <li>Express</li>
+      <ul className="pl-2">
+        <li className="flex">
+          <img src="../../javascript-icon.svg" width="20px" height="20px"></img>
+          <label class="ml-2">JavaScript</label>
+        </li>
+        <li className="flex">
+          <img src="../../react-icon.svg" width="20px" height="20px"></img>
+          <label class="ml-2">React</label>
+        </li>
+        <li className="flex">
+          <img src="../../vue-icon.svg" width="20px" height="20px"></img>
+          <label class="ml-2">Vue</label>
+        </li>
+        <li className="flex">
+          <img src="../../database-icon.png" width="20px" height="20px"></img>
+          <label class="ml-2">SQL/Oracle</label>
+        </li>
+        <li className="flex">
+          <img src="../../csharp-icon.png" width="20px" height="20px"></img>
+          <label class="ml-2">C# .Net</label>
+        </li>
       </ul>
     )
   },
@@ -22,8 +36,11 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>UTN - Facultad Regional Córdoba</li>
+      <ul className="pl-2">
+        <li className="flex">
+          <img src="../../utn-icon.ico" width="20px"></img>
+          <label class="ml-2">UTN - Facultad Regional Córdoba</label>
+        </li>
       </ul>
     )
   }
