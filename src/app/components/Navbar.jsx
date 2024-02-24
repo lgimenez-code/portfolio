@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import NavLink from './NavLink';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from './MenuOverlay';
@@ -21,6 +22,14 @@ const navLinks = [
   },
 ];
 
+{/* <img
+// className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:w-[300px] lg:h-[300px]"
+className="bg-white rounded-full"
+src="../../terminal-icon.png"
+alt=""
+width={48}
+height={48}
+/> */}
 
 const Navbar = () => {
   const [ navbarOpen, setNavbarOpen ] = useState(false);
