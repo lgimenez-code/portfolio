@@ -11,35 +11,35 @@ const listSkills = [
     content: (
       <ul className="pl-2">
         <li className="flex">
-          <Image src="/javascript-icon.svg" width={20} height={20} />
+          <Image src="/javascript-icon.svg" width={20} height={20} alt="js icon" />
           <label className="ml-2">JavaScript</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/react-icon.svg" width={20} height={20} />
+          <Image src="/react-icon.svg" width={20} height={20} alt="react icon" />
           <label className="ml-2">React</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/vue-icon.svg" width={20} height={20} />
+          <Image src="/vue-icon.svg" width={20} height={20} alt="vue icon" />
           <label className="ml-2">Vue</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/database-icon.png" width={20} height={20} />
+          <Image src="/database-icon.png" width={20} height={20} alt="database icon" />
           <label className="ml-2">SQL/Oracle</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/csharp-icon.png" width={20} height={20} />
+          <Image src="/csharp-icon.png" width={20} height={20} alt="csharp icon" />
           <label className="ml-2">C# .Net</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/figma-icon.png" width={20} height={20} />
+          <Image src="/figma-icon.png" width={20} height={20} alt="figma icon" />
           <label className="ml-2">Figma</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/postman-icon.png" width={20} height={20} />
+          <Image src="/postman-icon.png" width={20} height={20} alt="postman icon" />
           <label className="ml-2">Postman</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/cypress-icon.png" width={20} height={20} className="bg-white rounded-full" />
+          <Image src="/cypress-icon.png" width={20} height={20} alt="cypress icon" className="bg-white rounded-full" />
           <label className="ml-2">Cypress Automation</label>
         </li>
       </ul>
@@ -51,7 +51,7 @@ const listSkills = [
     content: (
       <ul className="pl-2">
         <li className="flex">
-          <Image src="/utn-icon.ico" width={20} height={20} />
+          <Image src="/utn-icon.ico" width={20} height={20} alt="utn icon" />
           <label className="ml-2">UTN - Facultad Regional Córdoba</label>
         </li>
       </ul>
@@ -77,7 +77,7 @@ const AboutSection = () => {
         transition={{ duration: 1.5 }}
         className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16"
       >
-        <Image className="rounded-xl" src="/images/laptop-blue.png" width={500} height={500} alt=""/>
+        <Image className="rounded-xl" src="/images/laptop-blue.png" width={500} height={500} alt="laptop image"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iure maxime voluptatum, voluptas praesentium amet quos officiis tenetur incidunt reiciendis excepturi animi totam eveniet natus minima ipsum, aliquam repellat exercitationem.</p>
