@@ -2,7 +2,6 @@
 import React, { useState, useTransition } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
-import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 
 const listSkills = [
@@ -12,35 +11,35 @@ const listSkills = [
     content: (
       <ul className="pl-2">
         <li className="flex">
-          <img src="../../javascript-icon.svg" width="20px" height="20px"></img>
+          <Image src="/javascript-icon.svg" width={20} height={20} />
           <label className="ml-2">JavaScript</label>
         </li>
         <li className="flex mt-1">
-          <img src="../../react-icon.svg" width="20px" height="20px"></img>
+          <Image src="/react-icon.svg" width={20} height={20} />
           <label className="ml-2">React</label>
         </li>
         <li className="flex mt-1">
-          <img src="../../vue-icon.svg" width="20px" height="20px"></img>
+          <Image src="/vue-icon.svg" width={20} height={20} />
           <label className="ml-2">Vue</label>
         </li>
         <li className="flex mt-1">
-          <img src="../../database-icon.png" width="20px" height="20px"></img>
+          <Image src="/database-icon.png" width={20} height={20} />
           <label className="ml-2">SQL/Oracle</label>
         </li>
         <li className="flex mt-1">
-          <img src="../../csharp-icon.png" width="20px" height="20px"></img>
+          <Image src="/csharp-icon.png" width={20} height={20} />
           <label className="ml-2">C# .Net</label>
         </li>
         <li className="flex mt-1">
-          <img src="../../figma-icon.png" width="20px" height="20px"></img>
+          <Image src="/figma-icon.png" width={20} height={20} />
           <label className="ml-2">Figma</label>
         </li>
         <li className="flex mt-1">
-          <img src="../../postman-icon.png" width="20px" height="20px"></img>
+          <Image src="/postman-icon.png" width={20} height={20} />
           <label className="ml-2">Postman</label>
         </li>
         <li className="flex mt-1">
-          <img src="../../cypress-icon.png" width="20px" height="20px" className="bg-white rounded-full"></img>
+          <Image src="/cypress-icon.png" width={20} height={20} className="bg-white rounded-full" />
           <label className="ml-2">Cypress Automation</label>
         </li>
       </ul>
@@ -52,7 +51,7 @@ const listSkills = [
     content: (
       <ul className="pl-2">
         <li className="flex">
-          <img src="../../utn-icon.ico" width="20px"></img>
+          <Image src="/utn-icon.ico" width={20} height={20} />
           <label className="ml-2">UTN - Facultad Regional Córdoba</label>
         </li>
       </ul>

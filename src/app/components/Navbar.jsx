@@ -22,15 +22,6 @@ const navLinks = [
   },
 ];
 
-{/* <img
-// className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:w-[300px] lg:h-[300px]"
-className="bg-white rounded-full"
-src="../../terminal-icon.png"
-alt=""
-width={48}
-height={48}
-/> */}
-
 const Navbar = () => {
   const [ navbarOpen, setNavbarOpen ] = useState(false);
 
@@ -41,7 +32,13 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <Image
+            className="invert"
+            src="/raton-icon.png"
+            alt="profile pic"
+            width={48}
+            height={48}
+          />
         </Link>
         <div className="mobile-menu block md:hidden">
           {
