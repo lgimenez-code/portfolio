@@ -80,7 +80,11 @@ const AboutSection = () => {
         <Image className="rounded-xl" src="/images/laptop-blue.png" width={500} height={500} alt="laptop image"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iure maxime voluptatum, voluptas praesentium amet quos officiis tenetur incidunt reiciendis excepturi animi totam eveniet natus minima ipsum, aliquam repellat exercitationem.</p>
+          <p className="text-base lg:text-lg">
+            With more than 5 years of experience, I have developed sites with best practices using Frontend and backend tools, prioritizing good performance.
+            I am currently working with Javascript and Vue, and learning React among other tools demanded by the market.
+            When I'm not working, I'm usually drawing, reading or learning music.
+          </p>
           <div className="flex flex-row mt-8 justify-start">
             <TabButton
               selectTab={() => handleTabChange("skills")}
