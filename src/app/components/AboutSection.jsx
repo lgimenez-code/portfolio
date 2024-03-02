@@ -83,7 +83,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             With more than 5 years of experience, I have developed sites with best practices using Frontend and backend tools, prioritizing good performance.
             I am currently working with Javascript and Vue, and learning React among other tools demanded by the market.
-            When I'm not working, I'm usually drawing, reading or learning music.
+            When I&apos;m not at the computer, I&apos;m usually drawing, reading or learning music.
           </p>
           <div className="flex flex-row mt-8 justify-start">
             <TabButton
