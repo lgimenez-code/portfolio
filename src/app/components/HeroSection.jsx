@@ -32,8 +32,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl cursor-[url('../../public/arg-flag-icon.png'),_pointer]">
-            from 📍Argentina. Passionate, proactive, self-taught, specializing in building exceptional digital experiences.
-            Enthusiastic about emerging web technologies and staying up-to-date with industry trends.
+            from 📍Argentina. Enthusiastic about emerging web technologies and staying up-to-date with industry trends.
+            Passionate, proactive, self-taught, specializing in building exceptional digital experiences.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-terciary-500 to-secondary-500 hover:bg-slate-200 text-white">
