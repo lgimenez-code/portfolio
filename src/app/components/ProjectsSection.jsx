@@ -9,7 +9,6 @@ const projectsData = [
     id: 1,
     title: 'React Portfolio Website',
     description: 'Project 1 decription',
-    // image: '/images/projects/1.png',
     image: 'https://picsum.photos/200',
     tag: ['All', 'Web'],
     gitUrl: '/',
@@ -19,7 +18,6 @@ const projectsData = [
     id: 2,
     title: 'Potography Portfolio Website',
     description: 'Project 2 decription',
-    // image: '/images/projects/2.png',
     image: 'https://picsum.photos/300',
     tag: ['All', 'Web'],
     gitUrl: '/',
@@ -29,7 +27,6 @@ const projectsData = [
     id: 3,
     title: 'E-commenrce Application',
     description: 'Project 3 decription',
-    // image: '/images/projects/3.png',
     image: 'https://picsum.photos/502',
     tag: ['All', 'Web'],
     gitUrl: '/',
@@ -39,9 +36,8 @@ const projectsData = [
     id: 4,
     title: 'React Firebase Template',
     description: 'Authentication and CRUD operations',
-    // image: '/images/projects/4.png',
     image: 'https://picsum.photos/620',
-    tag: ['All', 'Mobile'],
+    tag: ['All', 'Backend'],
     gitUrl: '/',
     previewUrl: '/',
   },
@@ -49,9 +45,8 @@ const projectsData = [
     id: 5,
     title: 'Full-stack Roadmap',
     description: 'Project 5 decription',
-    // image: '/images/projects/5.png',
     image: 'https://picsum.photos/630',
-    tag: ['All', 'Mobile'],
+    tag: ['All', 'Backend'],
     gitUrl: '/',
     previewUrl: '/',
   },
@@ -59,7 +54,6 @@ const projectsData = [
     id: 6,
     title: 'Calculator',
     description: 'Project 6 decription',
-    // image: '/images/projects/6.png',
     image: 'https://picsum.photos/657',
     tag: ['All', 'Web'],
     gitUrl: '/',
@@ -101,8 +95,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={ handleTagChange }
-          name="Mobile"
-          isSelected={tag == "Mobile"}
+          name="Backend"
+          isSelected={tag == "Backend"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

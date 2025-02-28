@@ -27,7 +27,7 @@ const listSkills = [
           <label className="ml-2">SQL/Oracle</label>
         </li>
         <li className="flex mt-1">
-          <Image src="/csharp-icon.png" width={20} height={20} alt="csharp icon" />
+          <Image src="/csharp-icon.svg" width={20} height={20} alt="csharp icon" />
           <label className="ml-2">C# .Net</label>
         </li>
         <li className="flex mt-1">
@@ -82,8 +82,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             With more than 5 years of experience, I have developed sites with best practices using Frontend and backend tools, prioritizing good performance.
-            I am currently working with Javascript and Vue, and learning React among other tools demanded by the market.
-            When I&apos;m not at the computer, I&apos;m usually drawing, reading or learning music.
+            When I&apos;m not at the computer, I&apos;m usually reading books or learning music.
           </p>
           <div className="flex flex-row mt-8 justify-start">
             <TabButton

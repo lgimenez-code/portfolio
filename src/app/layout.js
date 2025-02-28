@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
+require('dotenv').config
 
 export const metadata = {
   title: 'Lucas Gimenez',
